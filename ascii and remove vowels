@@ -1,0 +1,40 @@
+import java.util.Scanner;
+class Main
+{
+	public static void main(String[] args)
+	{
+		//scanner class object creation
+		
+		char c='A';	
+		
+		//typecasting from character type to integer type
+		int i = c;
+		
+		//printing ASCII value of the character
+		System.out.println("ASCII value of "+c+" is "+i);
+		
+		
+	}
+}
+
+output:
+ASCII value of A is 65
+
+
+2.
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+        String s = "prepinsta";
+        String s1 = "";
+        s1 = s.replaceAll("[aeiou]", ""); 
+        System.out.println("String after removing vowel : "+s1); 
+	}
+
+}
+
+output:
+String after removing vowel : prpnst
